@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font{
+    font-family: "Open Sans", sans-serif;
+}
+/*navbar starts here*/
+nav{
+    width: 100%;
+    max-width: 1600px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px 100px;
+}
+nav .nav-img img{
+    width: 130px;
+    height: 55px;
+}
+nav .nav-link ul{
+    display: flex;
+    gap:30px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 355px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 150px;
+
+}
+nav .nav-link li{
+    list-style: none;
+    
+}
+nav .nav-link li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.nav-button .btn{
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;   
+}
+.nav-button .btn:hover{
+    background-color: chartreuse;
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+}
+/*navbar ends here*/
+
+/*banner section starts here*/
+
+#banner{
+    background-image: url(./images/assets/hero-bg.png);
+    width: 100%;
+    height: 460px;
+}
+#banner .banner-info{
+    width: 100%;
+    max-width: 1600px;
+    padding: 120px 260px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+.banner-info .start-info{
+    font-size: 12px;
+    font-weight: 500px;
+    line-height: 20px;
+    background-color: white;
+    color: green;
+    border-radius: 20px;
+    padding: 4px 8px;
+}
+#banner .banner-info h1 {
+    text-transform: capitalize;
+    font-weight: 700px;
+    color: white;
+    padding-top: 10px;
+}
+#banner .banner-info h2{
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: 700px;
+    color: lawngreen;
+    
+}
+#banner .banner-info .info-detail{
+    font-size: 14px;
+    color: white;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.info-button{
+    display: flex;
+    gap: 20px;
+}
+.info-button .info-btn-1 .btn{
+    background-color: limegreen;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+.info-button .info-btn-1 .btn:hover{
+    background-color: lawngreen;
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+}
+.info-button .info-btn-2 .btn{
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.info-button .info-btn-2 .btn:hover{
+    background-color: lawngreen;
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+}
+/*banner section ends here*/
+
+/*card notes starts here*/
+
+#card-notes{
+    width: 90%;
+    max-width: 1600px;
+    height: 350px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px; 
+    margin: 0 auto;   
+}
+#card-notes .card-heading{
+    text-align: center;
+}
+#card-notes .card-heading h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-style: bold;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 25px;
+}
+#card-notes .card-heading p{
+    font-size: 12px;
+    margin: 10px;
+    line-height: 10px;
+    color: #757575;
+}
+.card-file{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+.card-file .card-box{
+    margin: 10px;
+    background-color: aliceblue;
+    text-align: center;
+    height: 180px;
+    font-size: 11px;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px azure;
+}
+.card-file .card-box h3{
+    padding-bottom: 12px;
+}
+.card-file .card-box img{
+    background-color: orangered;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/*card notes ends here*/
+
+
+/*brain section starts here*/ 
+
+#brain-section .brain-section-design{
+    width: 90%;
+    max-width: 1600px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    padding: 70px;
+    margin: 0 auto;
+}
+.brain-section-design .brain-image img{
+    width: 330px;
+    height: 330px;
+}
+.brain-section-design .brain-details .head p{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: green;
+    font-weight: 500;
+    line-height: 20px; 
+}
+.brain-section-design .brain-details h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 700px;
+    padding-bottom: 15px;
+}
+.brain-section-design .brain-details p {
+    font-size: 11px;
+    line-height: 17px;
+    padding-bottom: 15px;
+    width: 400px;
+    color: #757575;
+}
+.brain-section-design .brain-details .list ul{
+    list-style: none;
+}
+.brain-section-design .brain-details .list ul li{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.brain-details .list ul li img{
+    height: 11px;
+    width: 13px;
+}
+/*brain section ends here*/ 
+
+/*early access section starts here*/
+
+.early-access-container{
+    width: 80%;
+    max-width: 1600px;
+    background-color: floralwhite;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
+.early-access-container .early-access-head{
+    padding-top: 50px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 22px;
+}
+.early-access-container .early-access-pera{
+    font-size: 10px;
+    color: #757575;
+    padding: 10px;
+    line-height: 15px;
+}
+.early-access-button .btn{
+    background-color: green;
+    color: white;
+    font-size: 10px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;   
+}
+.early-access-button .btn:hover{
+    background-color: chartreuse;
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+}
+.early-access-button img{
+    width: 15px;
+    height: 9px;
+}
+/*early access section ends here*/
+
+/*footer section starts here*/
+
+.footer-container{
+    background-color: var(--Style, rgba(0, 25, 49, 1));
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+
+.footer-container .footer-image img{
+    width: 100px;
+    height: 50px;
+    margin-right: 300px;
+}
+
+.footer-container .Social-link{
+    color: white;
+}
+
+.link-list{
+    display: flex;
+    flex-direction: row;  
+    color: white; 
+}
+.link-list li{
+    list-style: none;
+    padding: 5px;
+}
+
+
+/*footer section ends here*/
