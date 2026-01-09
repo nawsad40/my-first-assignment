@@ -301,9 +301,9 @@ nav .nav-link li a{
     justify-content: space-around;  
 }
 
-.footer-container .footer-image img{
+.footer-container  .footer-image img{
     width: 100px;
-    height: 50px;
+    height:  50px;
     margin-right: 300px;
 }
 
@@ -312,13 +312,13 @@ nav .nav-link li a{
 }
 
 .link-list{
-    display: flex;
+    display:  flex;
     flex-direction: row;  
     color: white; 
 }
 .link-list li{
-    list-style: none;
-    padding: 5px;
+    list-style:  none;
+    padding:  5px;
 }
 
 
